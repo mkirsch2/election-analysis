@@ -39,18 +39,26 @@ The analysis of the election show that:
     - Denver with 306,055 voters, which was 82.8% of the total number of voters.
 
 ## Challenge Overview
-The election audit was conducted using basic Python code to read and analyze a CSV file containing the election data. Snapshots of the code used to calculate the requested items are shown below.
+The election audit was conducted using basic Python code to read and analyze a CSV file containing the election data. A description and snapshots of the code used to calculate the requested items are shown below.
 
-### Total Votes
+### Variables
+Variables were initialized and empty lists and dictionaries were created to hold the data.
 
-### Candidate Names
+![variables](resources/variables.png)
 
-### Candidate Results
+### for loops
+A for loop was written to extract the candiate names and to track each candidate's vote counts. The for loop also extracted county names and votes from each county.
 
-### Election Winner
+![for_loop_1](resources/for_loop_1.png)
+![for_loop_2](resources/for_loop_2.png)
 
-### Voter Turnout By County
+A for loop was written to retreive total vote counts and percentages for each candidate and to determine the winning candidate.
 
+![for_loop_3](resources/for_loop_3.png)
+
+A for loop was written to determine the winning county and to get its vote count.
+
+![for_loop_4](resources/for_loop_4.png)
 
 ## Challenge Summary
 The script used for the election data from the U.S. Congressional precinct in Colorado can be replicated, with minor modificiations, to provide an efficient method of analayzing similar data from any election.
